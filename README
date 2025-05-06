@@ -1,0 +1,18 @@
+# PDF Metadata Extractor
+A simple command-line tool to extract and display metadata from PDF files using the UniDoc/UniPDF library.
+
+# Description
+This tool allows you to quickly extract and view metadata information from PDF files, including:
+
+- Title
+- Author
+- Subject
+- Creator
+
+# Usage
+## Options
+--help or -h: Show help message and usage examples
+## Examples
+./pdfinfo document.pdf
+./pdfinfo "C:\Documents\report.pdf"
+./pdfinfo /home/user/files/presentation.pdf
